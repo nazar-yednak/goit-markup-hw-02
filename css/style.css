@@ -14,6 +14,9 @@ body {
   text-decoration: none;
   color: var(--prymary-text-color);
 }
+.list {
+  list-style: none;
+}
 
 .page-heder {
 }
@@ -41,6 +44,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--prymary-text-color);
+}
+.site-nav .current {
+  color: var(--accent-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -159,6 +165,7 @@ body {
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: var(--prymary-text-color);
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
