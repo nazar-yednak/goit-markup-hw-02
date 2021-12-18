@@ -55,7 +55,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-.auth-nav {
+.auth-nav .link {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
