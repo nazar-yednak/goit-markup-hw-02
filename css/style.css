@@ -121,6 +121,9 @@ body {
 }
 
 /*Наша команда*/
+.team {
+  background-color: #f5f4fa;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -132,12 +135,14 @@ body {
 .team .title {
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--prymary-text-color);
 }
 .team .text {
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--title-text-color);
@@ -145,7 +150,7 @@ body {
 
 /*Портфоліо*/
 
-.nav-section .title {
+.section-work .title-nav {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -167,6 +172,15 @@ body {
   color: var(--prymary-text-color);
   cursor: pointer;
 }
+.active {
+  background: #2196f3;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-accent-color);
+}
+
 .btn:hover,
 .btn:focus {
   font-family: Roboto;
@@ -208,5 +222,9 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 .address .map {
+  color: var(--second-accent-color);
+}
+.address .link:hover,
+.address .link:focus {
   color: var(--second-accent-color);
 }
