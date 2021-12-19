@@ -212,7 +212,10 @@ body {
 footer {
   background-color: #2f303a;
 }
-.address .link {
+.footers {
+  color: var(--second-accent-color);
+}
+.logo-s .address .link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -226,5 +229,5 @@ footer {
 }
 .address .link:hover,
 .address .link:focus {
-  color: var(--second-accent-color);
+  color: var(--accent-color);
 }
